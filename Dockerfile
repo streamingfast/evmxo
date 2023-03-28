@@ -5,4 +5,4 @@ ADD /serve /app/serve
 
 EXPOSE 8080 8081 8082
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/usr/local/bin/torchserve"]
