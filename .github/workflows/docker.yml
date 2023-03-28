@@ -39,8 +39,7 @@ jobs:
         id: extract_names
         shell: bash
         run: |
-          echo "##[set-output name=branch_name;]$(echo ${GITHUB_REF#refs/heads/})"
-          echo "##[set-output name=image_name;]$(echo ${GITHUB_REPOSITORY#streamingfast/})"          
+          echo "##[set-output name=branch_name;]$(echo ${GITHUB_REF#refs/heads/})"       
 
       - name: Generate docker tags/labels from github build context
         id: meta
