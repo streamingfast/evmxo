@@ -37,7 +37,7 @@ Install Pytorch, [TorchServe](https://github.com/pytorch/serve/blob/master/READM
 ### Packaging the model artifacts
 
 - Create a model file including the model architecture (see [model_large_bs8_sl32_emb128.py](model_large_bs8_sl32_emb128.py))
-- Create an MAR file with the model
+- Create a `.mar` file with the model
 
 1. Start container by sharing the `model-store` and `serve` directories
 
